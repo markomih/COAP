@@ -8,7 +8,7 @@
 
 This is the official implementation of the CVPR 2022 paper [**COAP: Learning Compositional Occupancy of People**](https://neuralbodies.github.io/COAP)
 
-
+```bibtex
 @inproceedings{Mihajlovic:CVPR:2022,
    title = {{COAP}: Compositional Articulated Occupancy of People},
    author = {Mihajlovic, Marko and Saito, Shunsuke and Bansal, Aayush and Zollhoefer, Michael and Tang, Siyu},
@@ -16,3 +16,4 @@ This is the official implementation of the CVPR 2022 paper [**COAP: Learning Com
    month = jun,
    year = {2022}
 }
+```
