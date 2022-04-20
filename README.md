@@ -1,6 +1,6 @@
 # COAP: Compositional Articulated Occupancy of People
 
-[**Paper**](#) | [**Video**](https://www.youtube.com/watch?v=qU0q5h6IldU) | [**Project Page**](https://neuralbodies.github.io/COAP)
+[**Paper**](https://arxiv.org/abs/2204.06184) | [**Video**](https://www.youtube.com/watch?v=qU0q5h6IldU) | [**Project Page**](https://neuralbodies.github.io/COAP)
 
 <div style="text-align: center">
     <a href="https://neuralbodies.github.io/COAP"><img src="https://neuralbodies.github.io/COAP/images/teaser.png" alt="teaser figure"/></a>
