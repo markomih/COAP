@@ -1,0 +1,17 @@
+
+train_cfg:
+  batch_size: 8
+  num_workers: 10
+
+smpl_cfg:
+  model_type: 'smpl'  # if you use smplh or smplx, make sure to adjust data loaders accordingly
+  gender: 'neutral'
+  num_betas: 10
+
+data_cfg:
+  train:
+    datasets: ['DFaust_67', 'BMLmovi']  # training datasets
+    select_every: 10  # select every nth frame from the datasets
+  val:
+    datasets: ['MPI_Limits']  # validation datasets
+    select_every: 500

@@ -1,0 +1,5 @@
+numpy>=1.16.2
+torch>=1.0
+trimesh
+scikit-image
+pytorch3d

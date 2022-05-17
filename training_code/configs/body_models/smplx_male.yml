@@ -1,0 +1,18 @@
+
+train_cfg:
+  batch_size: 8
+  num_workers: 10
+
+smpl_cfg:
+  model_type: 'smplx'  # if you use smplh or smplx, make sure to adjust data loaders accordingly
+  gender: 'male'
+  num_betas: 16
+  use_pca: false
+
+data_cfg:
+  train:
+    datasets: ['DFaust', 'BMLrub']  # training datasets
+    select_every: 5  # select every nth frame from the datasets
+  val:
+    datasets: ['PosePrior']  # validation datasets
+    select_every: 500
