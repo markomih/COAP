@@ -43,7 +43,7 @@ Additionally we provide two [tutorials](./tutorials) on how to use these terms t
 
 # Pretrained Models
 A respective pretrained model will be automatically fetched and loaded.
-All the pretrained models are available on the `dev` branch inside the `./TRAINED_MODELS` directory. 
+All the pretrained models are available on the `dev` branch inside the `./models` directory. 
 
 # Citation
 ```bibtex
