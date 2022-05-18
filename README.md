@@ -11,10 +11,20 @@ This is the official implementation of the CVPR 2022 paper [**COAP: Learning Com
 ## Description
 This repository provides the official implementation of an implicit human body model (COAP) which implements efficient loss terms for resolving self-intersection and collisions with 3D geometries. 
 
-## Dependencies
-First manually install the [Pytorch3D](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md) package and then install other dependencies via: 
+## Installation
+The necessary requirements are specified in the `requrements.txt` file. 
+To install COAP, execute:
+```bash
+pip install git+https://github.com/markomih/COAP.git
+```
 
-```pip install git+https://github.com/markomih/COAP.git```
+Note that Pytorch3D may require manuall installation (see instructions [here](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md)).
+Alternatively, we provide a conda environment file to install the dependences:
+```bash
+conda env create -f environment.yml
+conda activate coap
+pip install git+https://github.com/markomih/COAP.git
+```
 
 ### Optional Dependencies
 Install the [pyrender](https://pyrender.readthedocs.io/en/latest/install/index.html) package to use the visualization/tutorial scripts and follow the additional instructions specified [here](./training_code/) if you wish to retrain COAP.
