@@ -39,7 +39,7 @@ assert model.joint_mapper is None, 'COAP requires valid SMPL joints as input'
 model.coap.selfpen_loss(smpl_output)  # self-intersections
 model.coap.collision_loss(smpl_output, scan_point_cloud)  # collisions with other geometris
 ```
-Additionally we provide two [tutorials](./tutorials) on how to use these terms to resolve self-intersections and collisions with environment.
+Additionally, we provide two [tutorials](./tutorials) on how to use these terms to resolve self-intersections and collisions with the environment.
 
 # Pretrained Models
 A respective pretrained model will be automatically fetched and loaded.
